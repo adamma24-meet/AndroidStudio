@@ -1,0 +1,75 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow">
+
+
+
+    <EditText
+        android:id="@+id/text1"
+        android:hint="Enter Your Full Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:padding="8dp"
+        android:background="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:background="@color/white"
+        android:hint="Enter Your Email "
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:background="@color/white"
+        android:hint="Enter Strong Password"
+        android:padding="8dp" />
+    <EditText
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:background="@color/white"
+        android:hint="Password"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:background="@drawable/round_button"
+
+        android:textColor="@color/white"
+        android:layout_below="@+id/text4"
+        android:layout_marginTop="30dp"
+        android:layout_alignStart="@+id/text2"
+        android:layout_alignEnd="@+id/text2" />
+
+
+
+
+
+</RelativeLayout>
